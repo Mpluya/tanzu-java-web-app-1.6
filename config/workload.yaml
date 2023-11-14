@@ -25,10 +25,6 @@ spec:
     value:
       apps.tanzu.vmware.com/pipeline: test
       apps.tanzu.vmware.com/language: java
-  - name: tolerations
-    value: test
-  - name: affinity
-    value: ["joe","jeremy"]
   source:
     git:
       url: https://github.com/Mpluya/tanzu-java-web-app-1.6
